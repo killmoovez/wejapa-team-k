@@ -1,2 +1,4 @@
 # Team-k-project-b5
-Wejapa Internship beginners project, team K. 
+To all collaborators!
+
+Alright, the sole purpose of this repo in life is to hold the facebook home page mock up. Lets get to work guys!
