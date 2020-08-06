@@ -1,0 +1,59 @@
+body{
+    background-color: #f0f2f5;
+}
+
+nav{
+    background-color: #fff;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+
+.ul-1{
+    padding:0 45px !important;
+}
+
+.fa-facebook-f{
+    color:  #3578E5;
+}
+
+.fa-home{
+    color:#3578E5 !important;
+    border-bottom: 2px #3578E5 solid;
+}
+
+.fa-facebook-messenger{
+    color: #3578E5;
+}
+
+.fa-bell{
+    color: #3578E5;
+}
+
+.fa-plus{
+    color: #3578E5;
+}
+
+.round{
+    background-color: #f0f2f5;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.fas:hover{
+    color: #3578E5;
+}
+
+.fa-smile-beam{
+    color: brown;
+    padding-right: 10px;
+}
+
+.enlarge{
+    font-weight: 700;
+    padding-top: 15px;
+}
