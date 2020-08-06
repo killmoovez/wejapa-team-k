@@ -2,8 +2,14 @@ body{
     background-color: #f0f2f5;
 }
 
+p{
+    position: relative;
+    margin:25px 0 25px 10px;
+}
+
 nav{
     background-color: #fff;
+    z-index: 1; /* Stay on top */
 }
 
 .navbar-nav{
@@ -48,12 +54,33 @@ nav{
     color: #3578E5;
 }
 
-.fa-smile-beam{
+.smile1{
     color: brown;
     padding-right: 10px;
 }
+
+.smile2{
+    color: brown;
+}
+
 
 .enlarge{
     font-weight: 700;
     padding-top: 15px;
 }
+
+.fa-user-md{
+    color: purple;
+}
+
+.fa-user-friends{
+    color:lightblue;
+}
+
+
+.lp{
+    position: absolute;
+    left: 17%;
+    margin-top: 5px;
+}
+
