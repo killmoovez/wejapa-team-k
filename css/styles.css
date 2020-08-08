@@ -161,8 +161,9 @@ nav{
     margin-left: 49px;
     padding-right: 30px !important;
     width: 74%;
-    height: 100px;
+    height: 90px;
     border-radius:10px;
+    position: relative;
 }
 
 .fa-video{
@@ -184,6 +185,10 @@ nav{
 
 }
 
+.fa-youtube{
+    color:#58409B;
+}
+
 
 .y-m-first{
     position: absolute;
@@ -198,4 +203,25 @@ nav{
 .y-m-third{
     position: absolute;
     left:72%;
+}
+
+
+.top-rt{
+    position: absolute;
+    left: 86%;
+    top: 10%;
+    color:#3578E5;
+}
+
+.rooms-below img{
+    width: 50px;
+
+}
+
+.circle{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100%;
 }
