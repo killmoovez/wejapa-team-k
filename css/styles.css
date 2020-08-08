@@ -164,3 +164,38 @@ nav{
     height: 100px;
     border-radius:10px;
 }
+
+.fa-video{
+    color: #FA383E;
+
+}
+
+.group2{
+   color: #3578E5; 
+}
+
+.fa-photo-video{
+    color: #00A400;
+    
+}
+
+.fa-laugh-beam{
+    color: #f5bb41;
+
+}
+
+
+.y-m-first{
+    position: absolute;
+    left:2%;
+}
+
+.y-m-second{
+    position: absolute;
+    left:40%;
+}
+
+.y-m-third{
+    position: absolute;
+    left:72%;
+}
