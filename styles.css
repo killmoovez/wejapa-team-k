@@ -2,10 +2,7 @@ body{
     background-color: #f0f2f5;
 }
 
-p{
-    position: relative;
-    margin:25px 0 25px 10px;
-}
+
 
 nav{
     background-color: #fff;
@@ -84,3 +81,86 @@ nav{
     margin-top: 5px;
 }
 
+.rp{
+    margin-top: 5px;
+}
+
+.ad1 img{
+    width: 40%;
+    display: inline-block;
+}
+
+.ad1-p{
+    float: right;
+    padding-right: 17%;
+}
+
+.ad2-p{
+    float:right;
+    padding-right: 14%;
+}
+
+.ad2 img{
+    width: 40%;
+    display: inline-block;
+}
+
+.ad a{
+    font-size: smaller;
+}
+
+.card-deck .card{
+    border-radius: 50% !important;
+    margin-right: 0.2rem !important;
+    margin-left: 0.2rem !important;
+    height: 192px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.col-sm-2{
+    padding-left: 0;
+    padding-right:0;
+}
+
+.your-mind {
+    position: relative;
+    background: #fff;
+    border: 1px solid #d4d9e3;
+    display: block;
+    margin-left: 49px;
+    padding-right: 30px !important;
+    width: 74%;
+    height: 120px;
+    border-radius:10px;
+
+}
+
+.your-mind form{
+    position:absolute;
+    top: 12px;
+    left:60px;
+    bottom: 100px;
+    width: 400px !important; 
+
+}
+
+
+.rooms{
+    background: #fff;
+    border: 1px solid #d4d9e3;
+    display: block;
+    margin-left: 49px;
+    padding-right: 30px !important;
+    width: 74%;
+    height: 100px;
+    border-radius:10px;
+}
