@@ -1,5 +1,6 @@
 body{
     background-color: #f0f2f5;
+   
 }
 
 
@@ -11,6 +12,22 @@ nav{
 
 .navbar-nav{
     margin: 0 auto;
+}
+
+.left{
+ position: fixed;
+ 
+ 
+}
+
+.middle{
+    position: relative;
+    left:26%
+}
+
+.right{
+     position: fixed;
+     right:1%; 
 }
 
 
@@ -224,4 +241,16 @@ nav{
     height: 40px;
     overflow: hidden;
     border-radius: 100%;
+}
+
+.post1{
+    position: relative;
+    background: #fff;
+    border: 1px solid #d4d9e3;
+    display: block;
+    margin-left: 49px;
+    padding-right: 30px !important;
+    width: 74%;
+    height: 320px;
+    border-radius:10px; 
 }
