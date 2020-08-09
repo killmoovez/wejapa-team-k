@@ -84,7 +84,7 @@ nav{
 }
 
 .fa-user-md{
-    color: purple;
+    color: rgb(236, 97, 236);
 }
 
 .fa-user-friends{
@@ -206,6 +206,29 @@ nav{
     color:#58409B;
 }
 
+.fa-digital-ocean{
+    color: royalblue;
+}
+
+.fa-scroll{
+    color: lightslategray;
+}
+
+.fa-python{
+    color:rgb(236, 97, 236);
+}
+
+.fa-user-graduate{
+    color: yellowgreen;
+}
+
+.fa-thumbs-up{
+    color:#3578E5 ;
+}
+
+.fa-gratipay{
+    color: crimson;
+}
 
 .y-m-first{
     position: absolute;
@@ -240,17 +263,65 @@ nav{
     width: 20px;
     height: 40px;
     overflow: hidden;
+    border: 2px blue solid;
     border-radius: 100%;
+    padding: 2px;
 }
 
 .post1{
-    position: relative;
     background: #fff;
     border: 1px solid #d4d9e3;
     display: block;
-    margin-left: 49px;
-    padding-right: 30px !important;
-    width: 74%;
-    height: 320px;
-    border-radius:10px; 
+    margin-left: 35px;
+    padding-right: 70px !important;
+    width: 77.5%;
+    height: 650px;
+    border-radius:10px;
+    position: relative;
+}
+
+.post-top img{
+    width:10%;
+    padding: 2px;
+}
+
+.post1-p{
+    float: right;
+    width: 80%;
+}
+
+.post-top hr{
+    width:3%;
+    border-top: 4px #4A4A4A dotted;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+}
+
+.quote{
+    position: absolute;
+    top: 12%;
+    right: 58%
+}
+
+.after-pic hr{
+    position: relative;
+    width: 116%;
+}
+
+.after-pic a{
+    position: relative;
+    left:50%;
+}
+
+
+.your-comment form{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    width: 90.5%!important; 
+}
+
+.post2{
+    height: 570px;
 }
