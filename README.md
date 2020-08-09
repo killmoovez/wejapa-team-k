@@ -1,6 +1,8 @@
 # Team-k-project-b5
 
 FRIENDLY DOCUMENTATION
+
+
 The Facebook mock-up developed in this repository is a strict DESKTOP screen optimized webpage, we decided to adopt the exact same approach the real Facebook practice, which is having different code bases and URLs for the Mobile and Desktop Screen sizes i.e m.facebook.com and facebook.com respectively. 
 
 This essentially resulted to a css file with no media queries
