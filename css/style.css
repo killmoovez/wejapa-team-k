@@ -187,3 +187,8 @@ body{
     padding: 12px;
     overflow-x: hidden;
 }
+@media only screen and (min-width: 370px) {
+  #mobile-view{
+  	display:none
+  }
+}
