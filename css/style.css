@@ -180,8 +180,10 @@ body{
     position: relative;
     top: 5px;
     left: 5px;
+    overflow-x: hidden;
 }
 .plus-fix{
     text-align: center;
     padding: 12px;
+    overflow-x: hidden;
 }
