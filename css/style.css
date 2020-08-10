@@ -1,0 +1,450 @@
+/* Desktop-view styles */
+
+#desktop-view{
+    background-color: #f0f2f5; 
+}
+nav{
+    background-color: #fff;
+    z-index: 1; /* Stay on top */
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.left{
+ position: fixed;
+}
+.middle{
+    position: relative;
+    left:26%
+}
+.right{
+     position: fixed;
+     right:1%; 
+}
+.ul-1{
+    padding:0 45px !important;
+}
+.fa-facebook{
+    color:  #3578E5;
+}
+.fa-home{
+    color:#3578E5 !important;
+    border-bottom: 2px #3578E5 solid;
+}
+.fb-msg{
+    color: #3578E5;
+}
+.fb-bell{
+    color: #3578E5;
+}
+.fb-plus{
+    color: #3578E5;
+}
+.round{
+    background-color: #f0f2f5;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.fas:hover{
+    color: #3578E5;
+}
+.smile1{
+    color: brown;
+    padding-right: 10px;
+}
+.smile2{
+    color: brown;
+}
+.enlarge{
+    font-weight: 700;
+    padding-top: 15px;
+}
+.fa-user-md{
+    color: rgb(236, 97, 236);
+}
+.fb-user-friends{
+    color:lightblue;
+}
+.lp{
+    position: absolute;
+    left: 17%;
+    margin-top: 5px;
+}
+.rp{
+    margin-top: 5px;
+}
+.ad1 img{
+    width: 40%;
+    display: inline-block;
+}
+.ad1-p{
+    float: right;
+    padding-right: 17%;
+}
+.ad2-p{
+    float:right;
+    padding-right: 14%;
+}
+.ad2 img{
+    width: 40%;
+    display: inline-block;
+}
+.ad a{
+    font-size: smaller;
+}
+.card-deck .card{
+    border-radius: 50% !important;
+    margin-right: 0.2rem !important;
+    margin-left: 0.2rem !important;
+    height: 192px;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.col-sm-2{
+    padding-left: 0;
+    padding-right:0;
+}
+.your-mind {
+    position: relative;
+    background: #fff;
+    border: 1px solid #d4d9e3;
+    display: block;
+    margin-left: 49px;
+    padding-right: 30px !important;
+    width: 74%;
+    height: 120px;
+    border-radius:10px;
+}
+.your-mind form{
+    position:absolute;
+    top: 12px;
+    left:60px;
+    bottom: 100px;
+    width: 400px !important; 
+}
+.rooms{
+    background: #fff;
+    border: 1px solid #d4d9e3;
+    display: block;
+    margin-left: 49px;
+    padding-right: 30px !important;
+    width: 74%;
+    height: 90px;
+    border-radius:10px;
+    position: relative;
+}
+.fa-video{
+    color: #FA383E;
+}
+.group2{
+   color: #3578E5; 
+}
+.fa-photo-video{
+    color: #00A400;   
+}
+.fa-laugh-beam{
+    color: #f5bb41;
+}
+.fa-youtube{
+    color:#58409B;
+}
+.fa-digital-ocean{
+    color: royalblue;
+}
+.fa-scroll{
+    color: lightslategray;
+}
+.fa-python{
+    color:rgb(236, 97, 236);
+}
+.fa-user-graduate{
+    color: yellowgreen;
+}
+.fb-thumbs-up{
+    color:#3578E5 ;
+}
+.fa-gratipay{
+    color: crimson;
+}
+.y-m-first{
+    position: absolute;
+    left:2%;
+}
+.y-m-second{
+    position: absolute;
+    left:40%;
+}
+.y-m-third{
+    position: absolute;
+    left:72%;
+}
+.top-rt{
+    position: absolute;
+    left: 86%;
+    top: 10%;
+    color:#3578E5;
+}
+.rooms-below img{
+    width: 50px;
+
+}
+.circle{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    overflow: hidden;
+    border: 2px blue solid;
+    border-radius: 100%;
+    padding: 2px;
+}
+.post1{
+    background: #fff;
+    border: 1px solid #d4d9e3;
+    display: block;
+    margin-left: 35px;
+    padding-right: 70px !important;
+    width: 77.5%;
+    height: 650px;
+    border-radius:10px;
+    position: relative;
+}
+.post-top img{
+    width:10%;
+    padding: 2px;
+}
+.post1-p{
+    float: right;
+    width: 80%;
+}
+.post-top hr{
+    width:3%;
+    border-top: 4px #4A4A4A dotted;
+    position: absolute;
+    right: 4%;
+    top: 2%;
+}
+.quote{
+    position: absolute;
+    top: 12%;
+    right: 58%
+}
+.after-pic hr{
+    position: relative;
+    width: 116%;
+}
+.after-pic a{
+    position: relative;
+    left:50%;
+}
+.your-comment form{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    width: 90.5%!important; 
+}
+.post2{
+    height: 570px;
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+#navigation{
+    text-align: center;
+}
+.minds{
+    margin: 15px 10px;
+}
+#usr{
+    width: 70%;
+    border-radius: 50px;
+}
+.side{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.sides{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border: blue 4px solid;
+}
+.icon{
+    font-size: 30px;
+    float: right;
+    margin-top: -50px;
+}
+.ico-text{
+    font-size: 10px;
+}
+.line-border{
+    height: 10px;
+    background-color: lightgrey;
+}
+.likes-border{
+    height: 2px;
+    background-color: lightgrey;
+}
+#stories{
+    overflow-x: hidden;
+}
+.image-story{
+    border-radius: 12px;
+    height: 160px;
+    width: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.archive{
+    float: right;
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 3px;
+}
+.stories-text{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 3px;
+}
+.clear{
+    clear: both;
+}
+.label-text{
+    position: absolute;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 5px;   
+    bottom: 5px;
+}
+.post-photo{
+    width: 100%;
+    height: 480px;
+}
+.times{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #606770;
+}
+.reactions{
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.comment{
+    float: right;
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.likes{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #606770;
+    text-align: center;
+    width: 164px;
+}
+.comments{
+    float: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #606770;
+    text-align: center;
+    width: 164px;
+}
+#feeds{
+    overflow-x: hidden;
+}
+.thumb{
+    background-color: #3B5998;
+    color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+}
+.heart{
+    background-color:red;
+    color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+}
+.plus{
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #fff;
+    color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.plus-fix{
+    text-align: center;
+    padding: 12px;
+}
+
+/* Toggles desktop and mobile view codes when screen width is above/below 470px */
+@media only screen and (min-width: 470px) {
+    #mobile-view{
+        display: none;
+    }
+}
+@media only screen and (max-width: 470px) {
+    #desktop-view{
+        display: none;
+    }
+}
