@@ -1,0 +1,187 @@
+body{
+    overflow-x: hidden;
+}
+#navigation{
+    text-align: center;
+}
+.minds{
+    margin: 15px 10px;
+}
+#usr{
+    width: 70%;
+    border-radius: 50px;
+}
+.side{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.sides{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border: blue 4px solid;
+}
+.icon{
+    font-size: 30px;
+    float: right;
+    margin-top: -50px;
+}
+.ico-text{
+    font-size: 10px;
+}
+.line-border{
+    height: 10px;
+    background-color: lightgrey;
+}
+.likes-border{
+    height: 2px;
+    background-color: lightgrey;
+}
+#stories{
+    overflow-x: hidden;
+}
+/* .image-story{
+    border-radius: 20px;
+    background-color: lightsalmon;
+}
+.img-story{
+    width: 70px;
+    height: 150px;
+} */
+.image-story{
+    border-radius: 12px;
+    height: 160px;
+    width: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.archive{
+    float: right;
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 3px;
+}
+.stories-text{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 3px;
+}
+.clear{
+    clear: both;
+}
+.label-text{
+    position: absolute;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 5px;   
+    bottom: 5px;
+}
+.post-photo{
+    width: 365px;
+    height: 480px;
+}
+.times{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #606770;
+}
+.reactions{
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.comment{
+    float: right;
+    color: #606770;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.likes{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #606770;
+    text-align: center;
+    width: 164px;
+}
+.comments{
+    float: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #606770;
+    text-align: center;
+    width: 164px;
+}
+#feeds{
+    overflow-x: hidden;
+}
+.thumb{
+    background-color: #3B5998;
+    color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+}
+.heart{
+    background-color:red;
+    color: #fff;
+    border-radius: 100px;
+    padding: 5px;
+}
+.plus{
+    height: 42px;
+    width: 42px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    background-color: #fff;
+    color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.plus-fix{
+    text-align: center;
+    padding: 12px;
+}

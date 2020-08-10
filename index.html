@@ -3,243 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/facebook.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/facebook.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/facebook.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>facebook</title>
+    <title>Facebook Mobile</title>
+    <link rel="icon" href="images/facebook.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1ec37ce380.js" crossorigin="anonymous"></script>
+
+<style>
+.side-img{
+    background-image: url("images/story2.jpg");
+}
+.img-story1{
+    background-image: url("images/story2.jpg");
+}
+.img-story2{
+    background-image: url("images/story3.jpg");
+}
+.img-story3{
+    background-image: url("images/photo.jpg");
+}
+.img-story4{
+    background-image: url("images/story5.png");
+}
+.nav-link{
+    font-size: 20px;
+    margin: 0 10px;
+}
+</style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5">
-        <a class="navbar-brand" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2 round" type="search" placeholder="Search facebook" aria-label="Search">
-        </form>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item ul-1 ">
-              <a class="nav-link active" href="#"><i class="fas fa-home fa-2x"></i></a>
-            </li>
-            <li class="nav-item ul-1 ">
-              <a class="nav-link " href="#"><i class="fas fa-tv fa-2x"></i></a>
-            </li>
-            <li class="nav-item ul-1">
-              <a class="nav-link" href="#"><i class="fas fa-users fa-2x"></i></a>
-            </li>
-            <li class="nav-item ul-1 ">
-              <a class="nav-link " href="#"><i class="fas fa-gamepad fa-2x"></i></a>
-            </li>
-            
-          </ul>
-          <ul class="navbar-nav ul-2">
-            <li class="nav-item active">
-              <a class="nav-link enlarge" href="#"><i class="fas fa-smile-beam smile1"></i>Team K</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fas fa-plus fa-2x"></i></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fab fa-facebook-messenger fa-2x"></i></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fas fa-bell fa-2x"></i></a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
-  
-    <section class="mt-5 pt-4 ">
-      <div class="container-fluid mt-3">
-        <div class="row">
-          <div class="col-md-3 left ">
-            <p><i class="fas fa-smile-beam smile2 fa-2x"></i> <span class="lp">Team K</span></p>
-            <p><i class="fas fa-user-md fa-2x"></i><span class="lp">COVID-19 Information center</span></p>
-            <p><i class="fas fa-user-friends fa-2x"></i><span class="lp">Friends</span></p>
-            <p><i class="fab fa-facebook-messenger fa-2x"></i><span class="lp">Messenger</span></p>
-            <p><i class="fas fa-users group2 fa-2x"></i><span class="lp">Groups</span></p>
-            <hr>
-            <p class="font-weight-bold">Your Shortcuts</p>
-            <p><i class="fab fa-digital-ocean fa-2x"></i><span class="lp">Digital Ocean Group Ng</span></p>
-            <p><i class="fas fa-scroll fa-2x"></i><span class="lp">World Readers forum</span></p>
-            <p><i class="fab fa-python fa-2x"></i><span class="lp">Python Intermediates</span></p>
-            <p><i class="fas fa-user-graduate fa-2x"></i><span class="lp">FUTO Alumini</span></p>
-            <small>Privacy · Terms · Advertising · Ad Choices  · Cookies ·  · Facebook © 2020</small>
-          </div>
+<!-- facebook page mobile view -->
 
+<body id="mobile-view">
+    <section id="navigation">
 
+<!-- Navigation Menu         -->
 
-          
-          <div class="col-md-6 middle ">
-            <div class='row mt-2 ml-3'>
-              <div class="card-deck">
-            
-                  <div class="col-sm-2 ">
-                    <div class="card ">
-                      <img class="card-img-top " src="img/8.jpg" alt="Card image cap">
-                    </div>
-                  </div>
+        <nav class="navbar navbar-expand navbar-dark" style="background-color: #3B5998;">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-window-maximize"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user-friends"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-facebook-messenger"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#"><i class="fas fa-bars"></i></a>
+              </li>
+            </ul>
+          </nav>
 
+<!-- Profile image and whats on your mind inputs           -->
 
-                  <div class="col-sm-2 ">
-                    <div class="card ">
-                      <img class="card-img-top " src="img/9.jpg" alt="Card image cap">
-                    </div>
-                  </div>
-
-
-                  <div class="col-sm-2 ">
-                    <div class="card ">
-                      <img class="card-img-top" src="img/10.jpg" alt="Card image cap">
-                    </div>
-                  </div>
-
-
-                  <div class="col-sm-2 ">
-                    <div class="card ">
-                      <img class="card-img-top" src="img/7.jpeg" alt="Card image cap">
-                    </div>
-                  </div>
-
-
-                  <div class="col-sm-2 ">
-                    <div class="card ">
-                      <img class="card-img-top" src="img/ad2.png" alt="Card image cap">
-                    </div>
-                  </div>
-
-              
-              </div>
-              
-          
+          <div class="minds">
+            <i class="side-img side"></i>
+            <input type="text" class="form-control" id="usr" name="username" placeholder="What's on your mind?">
+            <div class="icon">
+                <i class="fas fa-images"></i><p class="ico-text">Photo</p>
             </div>
-            <div class="row mt-5 mt-3">
-              <div class="your-mind">
-                <i class="fas pl-3 pt-3 fa-smile-beam smile2 fa-2x"></i>
-                <form>
-                  <input class="form-control mr-sm-2 round" type="search" placeholder="What`s on your mind, Team K?" aria-label="Search">
-                </form>
-                <hr>
-                <div class="y-m-below">
-                  <div class="y-m-first">
-                    <p><i class="fas fa-video "></i><span class="ml-1">Live Video</span></p>
-                  </div>
-                  <div class="y-m-second">
-                    <p><i class="fas fa-photo-video "></i><span class="ml-1">Photo/video</span></p>
-                  </div>
-                  <div class="y-m-third">
-                    <p><i class="fas fa-laugh-beam "></i><span class="ml-1">Feeling/Activity</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row my-3">
-              <div class="rooms">
-                <div class="rooms-top">
-                  <div class="top-lf ml-2 mt-2">
-                    <i class="fab fa-youtube"></i><span class="font-weight-bold ml-2">Rooms</span>
-                  </div>
-                  <div class="top-rt">
-                    <a class="create">create</a>
-                  </div>         
-                </div> 
-                <div class="rooms-below pt-2 pl-4">
-                  <img src='img/8.jpg' class="circle">
-                  <img src='img/2.jpg' class="circle">
-                  <img src='img/9.jpg' class="circle">
-                  <img src='img/4.jpg' class="circle">
-                  <img src='img/3.jpg' class="circle">
-                  <img src='img/10.jpg' class="circle">
-                  <img src='img/1.jpg' class="circle">
-                  <img src='img/7.jpeg' class="circle">
-                </div>
-              </div>          
-            </div>
-
-            <div class="post1 mb-3">
-                <div class="post-top">
-                  <img src="img/5.jpg" class="circle mt-3 ml-3">
-                  <p class="pr-5 mt-3 mr-3 post1-p"><span class="font-weight-bold">Sarah Nwayinma Ogunji</span> is with <span class="font-weight-bold">Sylvia Kanu </span>and <span class="font-weight-bold">10 others.</span></p>
-                  <hr>
-
-                  <p class="quote">‘To thine own self be true.‘</p>
-                </div>
-                <img src="img/12.png" class="mt-4">
-                <div class="after-pic">
-                  <p class="pl-3 mt-3"><i class="fas mr-0 fa-thumbs-up"></i> <i class="fab  fa-gratipay"></i> &#128517;  267 <a class="ml-5" href="#">55 Comment</a></p>
-                  <hr>
-                </div>
-                <div class="your-comment">
-                  <i class="fas pl-2 pt-1 fa-smile-beam smile2 fa-2x"></i>
-                  <form class="float-right pl-2">
-                    <input class="form-control mr-sm-2 round" type="search" placeholder="Write a Comment" aria-label="Search">
-                  </form>
-                </div>
-             
-            </div>
-
-            <div class="post1 mb-5 post2">
-              <div class="post-top">
-                <img src="img/5.jpg" class="circle mt-3 ml-3">
-                <p class="pr-5 mt-3 mr-3 post1-p"><span class="font-weight-bold">David Oni</span> > <span class="font-weight-bold">NYSC Connect 💞✨.</span></p>
-                <hr>
-
-                <p class="quote">Please who is in this table?</p>
-              </div>
-              <img src="img/post3.png" class="mt-5">
-              <div class="after-pic">
-                <p class="pl-3 mt-3"><i class="fas mr-0 fa-thumbs-up"></i>  &#128517;  50 <a class="ml-5" href="#">129 Comment</a></p>
-                <hr>
-              </div>
-              <div class="your-comment">
-                <i class="fas pl-2 pt-1 fa-smile-beam smile2 fa-2x"></i>
-                <form class="float-right pl-2">
-                  <input class="form-control mr-sm-2 round" type="search" placeholder="Write a Comment" aria-label="Search">
-                </form>
-              </div>
-           
           </div>
-
-            
-        
-          </div>
-
-
-
-
-          <div class="col-md-3 right">
-            <!-- Ads begining -->
-            <p class="rp">Sponsored</p>
-              <div class="ad1 mb-4">
-                <img src="img/ad1.jpg">
-                <p class="ad1-p  ad">Buy a coke today <br> <a href="twitter.com">cokacola.com</a></p>  
-              </div>
-              <div class="ad2">
-                <img src="img/ad2.png">
-                <p class="ad2-p ad">Run ads with ease <br> <a href="facebook.com">ad.facebook.com</a></p>  
-              </div>
-           <!-- Ads closing  -->
-            <hr>
-            <p class="rp">Your pages</p>
-          </div>
-        </div>
-      </div>
     </section>
-      
+    <hr class="line-border">
+    <section id="stories">
 
+<!-- User Stories        -->
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://kit.fontawesome.com/52b5a73181.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <p class="archive">Your archive</p>
+        <h3 class="stories-text">Stories</h3>
+        
+        <div class="clear"></div>
+        <div class="row">
+            <div class="col-3">
+                <div class="image-story img-story1">
+                    <i class="fas fa-plus plus plus-fix"></i> 
+                    <p class="label-text">Add to Story</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="image-story img-story2">
+                    <img class="sides" src="images/story1.jpg" alt="story1">
+                    <p class="label-text">Sandra Hames</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="image-story img-story3">
+                    <img class="sides" src="images/story1.jpg" alt="story2">
+                    <p class="label-text">Jessica Davies</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="image-story img-story4">
+                    <img class="sides" src="images/story1.jpg" alt="story3">
+                    <p class="label-text">John <br> Doe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="line-border">
 
-  </body>
+    <section id="feeds">
+
+<!-- Feeds         -->
+
+        <div>
+            <img class="sides" src="images/story4.jpeg" alt="user-story">
+            <p class="stories-text"><strong>Sarah Nwayinma Ogunji</strong> is with <strong>Sylvia Kanu</strong> and <strong>10 others</strong>.<span class="times"><br> 1 hr</span></p>
+            <p class="stories-text">To thine own self be true.</p>
+            <img class="post-photo" src="images/sarah.png" alt="sarah">
+            <p class="comment">55 comments</p>
+            <p class="reactions"><i class="fas fa-thumbs-up thumb"></i></i><i class="fas fa-heart heart"></i> &nbsp; 267</p>
+            <hr class="likes-border">
+            <p class="comments"><i class="far fa-comment-alt comme"></i> Comment</p>
+            <p class="likes"><i class="far fa-thumbs-up thumbs"></i> like</p>
+            <hr class="line-border">    
+        </div>
+        <div>
+            <img class="sides" src="images/story4.jpeg" alt="user-story">
+            <p class="stories-text"><strong>David Oni</strong> > <strong>NYSC Connect 💞✨.</strong>.<span class="times"><br> 15 mins</span></p>
+            <p class="stories-text">Please who is on this table?</p>
+            <img class="post-photo" src="images/nysc.png" alt="nysc">
+            <p class="comment">129 comments</p>
+            <p class="reactions"><i class="fas fa-thumbs-up thumb"></i></i><i class="fas fa-heart heart"></i> &nbsp; 50</p>
+            <hr class="likes-border">
+            <p class="comments"><i class="far fa-comment-alt comme"></i> Comment</p>
+            <p class="likes"><i class="far fa-thumbs-up thumbs"></i> like</p>
+            <hr class="line-border">    
+        </div>
+    </section>
+</body>
 </html>
